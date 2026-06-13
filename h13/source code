@@ -43,7 +43,6 @@ int main(void)
             palindrome = 0;
             break;
         }
-
         left++;
         right--;
     }
