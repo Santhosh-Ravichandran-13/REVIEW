@@ -76,7 +76,6 @@ void vector_free(Vector *vector)
     vector->size = 0;
     vector->capacity = 0;
 }
-
 int main(void)
 {
     Vector vector;
