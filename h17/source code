@@ -21,7 +21,6 @@ int copy_bounded(char destination[], int size, char source[])
     destination[i] = '\0';
     return truncated;
 }
-
 int main(void)
 {
     char source[100];
@@ -30,9 +29,7 @@ int main(void)
 
     printf("Enter text to copy: ");
     fgets(source, sizeof(source), stdin);
-
     truncated = copy_bounded(copied, sizeof(copied), source);
-
     printf("Copied text: %s\n", copied);
     if (truncated) {
         printf("The source was longer than the destination, so extra characters were skipped.\n");
