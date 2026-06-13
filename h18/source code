@@ -66,6 +66,5 @@ int main(void)
         printf("%d ", merged[i]);
     }
     printf("\n");
-
     return 0;
 }
