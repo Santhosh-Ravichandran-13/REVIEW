@@ -1,5 +1,4 @@
 #include "stdio.h"
-
 struct Customer {
     int id;
     char name[50];
