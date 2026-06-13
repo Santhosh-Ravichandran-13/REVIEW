@@ -45,13 +45,10 @@ int main(void)
     printf("Enter the main string: ");
     fgets(text, sizeof(text), stdin);
     remove_newline(text);
-
     printf("Enter the substring: ");
     fgets(pattern, sizeof(pattern), stdin);
     remove_newline(pattern);
-
     index = find_substring(text, pattern);
-
     if (index >= 0) {
         printf("First occurrence is at index %d.\n", index);
     } else {
