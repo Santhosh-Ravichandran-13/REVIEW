@@ -12,7 +12,6 @@ int main(void)
 
     printf("Enter the character to remove: ");
     scanf(" %c", &remove);
-
     while (text[readIndex] != '\0') {
         if (text[readIndex] != remove) {
             text[writeIndex] = text[readIndex];
@@ -21,7 +20,6 @@ int main(void)
         readIndex++;
     }
     text[writeIndex] = '\0';
-
     printf("After removing '%c': %s", remove, text);
     return 0;
 }
