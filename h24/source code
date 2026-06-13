@@ -61,7 +61,6 @@ int main(void)
         free(second);
         return 0;
     }
-
     printf("Before swap: %s, %s\n", first, second);
     swap_pointers(&first, &second);
     printf("After swap: %s, %s\n", first, second);
