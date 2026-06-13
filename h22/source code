@@ -83,7 +83,6 @@ int main(void)
         }
         i++;
     }
-
     printf("Word frequencies:\n");
     for (i = 0; i < unique; i++) {
         printf("%s : %d\n", words[i], counts[i]);
