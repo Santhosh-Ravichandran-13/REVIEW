@@ -1,5 +1,4 @@
 #include "stdio.h"
-
 struct Product {
     int id;
     char name[50];
