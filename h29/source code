@@ -1,6 +1,5 @@
 #include "stdio.h"
 #include "stdlib.h"
-
 struct Item {
     int id;
     char name[40];
