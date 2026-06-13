@@ -15,12 +15,10 @@ int main(void)
         printf("Enter a size from 1 to 50.\n");
         return 0;
     }
-
     printf("Enter %d numbers: ", n);
     for (p = values; p < values + n; p++) {
         scanf("%d", p);
     }
-
     end = values + n;
     for (p = values; p < end; p++) {
         sum = sum + *p;
